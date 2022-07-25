@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery-1.12.4.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  <title>Diptyque</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <!-- header 영역 -->
+    <header id="header">
+      <div class="inner">
+        <div class="header-top">
+          <div class="logo">
+            <img src="./img/logo.webp" alt="">
+          </div>
+          <div class="sub-menu">
+            <a href="#none" class="icon user">
+              <img src="./img/icon_user.svg" alt="">
+            </a>
+            <a href="#none" class="icon bag">
+              <img src="./img/icon_bag.svg" alt="">
+            </a>
+            <a href="#none" class="icon help">
+              <img src="./img/icon_help.svg" alt="">
+            </a>
+            <div class="search-box">
+              <input type="text" />
+              <div class="search">
+                <img src="./img/icon_search.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <!-- hamburger 버튼 -->
+          <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+
+
+        <!-- menu 영역 -->
+        <div class="header-bottom">
+          <ul class="menu">
+            <li class="item">
+              <a href="#none" class="item-name">New &amp; Trending</a>
+              <div class="item-contents">
+                <ul class="contents-inner">
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_01.webp" alt="">
+                      </div>
+                      <p class="contents-txt">Meet the summer collection</p>
+                    </a>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_02.webp" alt="">
+                      </div>
+                      <p class="contents-txt">Meet llio : Sunshine in a Bottle</p>
+                    </a>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_03.webp" alt="">
+                      </div>
+                      <p class="contents-txt">Discover summer scents...</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#none" class="item-name">La Droguerie</a>
+              <div class="item-contents">
+                <ul class="contents-inner">
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_04.webp" alt="">
+                      </div>
+                      <p class="contents-txt">See the entire collection</p>
+                    </a>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_05.webp" alt="">
+                      </div>
+                      <p class="contents-txt">Discover the basil anti-odor...</p>
+                    </a>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_06.webp" alt="">
+                      </div>
+                      <p class="contents-txt">Discover the refillable orange...</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#none" class="item-name">Fragrances</a>
+              <div class="item-contents">
+                <ul class="contents-inner">
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">향수</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">오 드 퍼퓸</a></li>
+                      <li><a href="#none" class="menu-name">오 드 뚜왈렛</a></li>
+                      <li><a href="#none" class="menu-name">헤어 미스트</a></li>
+                      <li><a href="#none" class="menu-name">고체 향수</a></li>
+                      <li><a href="#none" class="menu-name">스프레이</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">바디 케어 및 쥬얼리</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">향수 팔찌</a></li>
+                      <li><a href="#none" class="menu-name">향수 브로치</a></li>
+                      <li><a href="#none" class="menu-name">바디 패치</a></li>
+                      <li><a href="#none" class="menu-name">핸드 케어</a></li>
+                      <li><a href="#none" class="menu-name">바디 케어</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">컬렉션</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">오 로즈</a></li>
+                      <li><a href="#none" class="menu-name">오 데 센스</a></li>
+                      <li><a href="#none" class="menu-name">도손</a></li>
+                      <li><a href="#none" class="menu-name">필로시코스</a></li>
+                      <li><a href="#none" class="menu-name">탐다오</a></li>
+                      <li><a href="#none" class="menu-name">플뢰르 드 포</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">하이라이트</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">한정판</a></li>
+                      <li><a href="#none" class="menu-name">베스트 셀러</a></li>
+                      <li><a href="#none" class="menu-name">선물 세트</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#none" class="item-name">Candles &amp; Diffusers</a>
+              <div class="item-contents">
+                <ul class="contents-inner">
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">향초</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">일반 향초</a></li>
+                      <li><a href="#none" class="menu-name">미니 향초</a></li>
+                      <li><a href="#none" class="menu-name">라지 향초</a></li>
+                      <li><a href="#none" class="menu-name">컬러 향초</a></li>
+                      <li><a href="#none" class="menu-name">세라믹 향초</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">디퓨저 및 스프레이</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">리드 디퓨저</a></li>
+                      <li><a href="#none" class="menu-name">자동차 디퓨저</a></li>
+                      <li><a href="#none" class="menu-name">전기 디퓨저</a></li>
+                      <li><a href="#none" class="menu-name">스톤 디퓨저</a></li>
+                      <li><a href="#none" class="menu-name">룸 스프레이</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">컬렉션</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">베이즈</a></li>
+                      <li><a href="#none" class="menu-name">피귀에</a></li>
+                      <li><a href="#none" class="menu-name">푀 드 부아</a></li>
+                      <li><a href="#none" class="menu-name">튜베로우스</a></li>
+                      <li><a href="#none" class="menu-name">장미</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">하이라이트</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">캔들 페어링</a></li>
+                      <li><a href="#none" class="menu-name">베스트 셀러</a></li>
+                      <li><a href="#none" class="menu-name">선물 세트</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#none" class="item-name">Bath &amp; Body</a>
+              <div class="item-contents">
+                <ul class="contents-inner">
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">보살핌의 기술</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">바디 케어</a></li>
+                      <li><a href="#none" class="menu-name">핸드 케어</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">향기 케어</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">도손</a></li>
+                      <li><a href="#none" class="menu-name">오 로즈</a></li>
+                      <li><a href="#none" class="menu-name">오 데 센스</a></li>
+                      <li><a href="#none" class="menu-name">필로시코스</a></li>
+                      <li><a href="#none" class="menu-name">탐다오</a></li>
+                      <li><a href="#none" class="menu-name">플뢰르 드 포</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">기능 케어</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">클렌징</a></li>
+                      <li><a href="#none" class="menu-name">각질제거</a></li>
+                      <li><a href="#none" class="menu-name">보습</a></li>
+                    </ul>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none" class="menu-title">하이라이트</a>
+                    <ul>
+                      <li><a href="#none" class="menu-name">베스트 셀러</a></li>
+                      <li><a href="#none" class="menu-name">선물 세트</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="#none" class="item-name">About the Maison</a>
+              <div class="item-contents">
+                <ul class="contents-inner">
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_07.png" alt="">
+                      </div>
+                      <p class="contents-txt">A singular heritage</p>
+                    </a>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_08.png" alt="">
+                      </div>
+                      <p class="contents-txt">Explore the Iconic Creations</p>
+                    </a>
+                  </li>
+                  <li class="contents-menu">
+                    <a href="#none">
+                      <div class="contents-img">
+                        <img src="./img/menu_inner_09.png" alt="">
+                      </div>
+                      <p class="contents-txt">Discover our boutique services</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- hamburger 버튼 클릭하면 열리는 메뉴 -->
+    <div class="hamburger-menu-box">
+      <div class="sub-menu">
+        <div class="icon-box-wrap">
+          <a href="#none" class="icon user">
+            <img src="./img/icon_user.svg" alt="">
+          </a>
+          <a href="#none" class="icon bag">
+            <img src="./img/icon_bag.svg" alt="">
+          </a>
+          <a href="#none" class="icon help">
+            <img src="./img/icon_help.svg" alt="">
+          </a>
+        </div>
+        <div class="search-box-wrap">
+          <div class="search-box">
+            <input type="text" />
+            <div class="search">
+              <img src="./img/icon_search.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="hamburger-menu">
+        <li><a href="#none">SHOP</a></li>
+        <li><a href="#none">SERVICES</a></li>
+        <li><a href="#none">ABOUT</a></li>
+        <li><a href="#none">CONTACT</a></li>
+      </ul>
+    </div>
+
+
+    <!-- main 영역 -->
+    <section class="main">
+      <div class="video">
+        <video autoplay muted loop playsinline>
+          <source src="./video/video_1.mp4">
+        </video>
+      </div>
+    </section>
+
+    <!-- sec-1 영역 -->
+    <section class="section sec-1">
+      <div class="inner">
+        <div class="title-box">
+          <div class="txt-box">
+            <h3 class="subhead">New &amp; Trending</h3>
+            <h2 class="headline">A MEDITERRANEAN SUMMER</h2>
+          </div>
+          <a href="#none" class="see-all btn-pc">SEE ALL</a>
+        </div>
+
+        <!-- 스와이퍼 -->
+        <div class="swiper mySwiper first">
+          <div class="swiper-wrapper slide-box-wrap">
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_01.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">ILIO EAU DE TOILETTE 100ML</p>
+                <p class="price">$150</p>
+              </div>
+            </a>
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_02.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">ILIO HAIR MIST 30ML</p>
+                <p class="price">$56</p>
+              </div>
+            </a>
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_03.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">VINAIGRE DE TOILETTE - MEDITERRANEAN EDITION</p>
+                <p class="price">$80</p>
+              </div>
+            </a>
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_04.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">LEMONGRASS &amp; GERANIUM - SUMMER BODY SPRAY WITH ESSENTIAL OILS</p>
+                <p class="price">$56</p>
+              </div>
+            </a>
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_05.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">CITRONNELLE / LEMONGRASS CANDLE 190G</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_06.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">CITRONNELLE / LEMONGRASS CANDLE 1.5KG</p>
+                <p class="price">$370</p>
+              </div>
+            </a>
+            <a href="#none" class="swiper-slide slide-box">
+              <div class="slide-img">
+                <img src="./img/new_07.webp" alt="">
+              </div>
+              <div class="slide-txt">
+                <p class="name">CITRONNELLE / LEMONGRASS SCENTED INSERT</p>
+                <p class="price">$50</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-button-next next-btn"></div>
+          <div class="swiper-button-prev prev-btn"></div>
+        </div>
+
+        <a href="#none" class="see-all btn-m">SEE ALL</a>
+
+
+      </div>
+    </section>
+
+    <!-- sec-2 영역 -->
+    <section class="section sec-2">
+      <div class="inner">
+        <div class="sec-2-left-box">
+          <div class="sec-2-img-1">
+            <img src="./img/section_02.jpg" alt="">
+          </div>
+          <div class="sec-2-img-2">
+            <img src="./img/section_02.jpg" alt="">
+          </div>
+        </div>
+        <div class="sec-2-right-box">
+          <h4>SUMMER ENTERS ...</h4>
+          <p>
+            ... 파도와 사이프러스 나무 사이<br>
+            지중해 자연의 형태와 색상에서 영감을 받은<br>
+            딥티크의 여름 컬렉션을 만나보세요
+          </p>
+          <a href="#none" class="see-all">DISCOVER</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- sec-3 영역 -->
+    <section class="section sec-3">
+      <div class="inner">
+        <div class="sticky-box-m">
+          <img src="./img/section_03.jpg" alt="">
+        </div>
+        <div class="scroll-box">
+          <div class="title-box">
+            <h2 class="headline">OUR MOST POPULAR PERFUMES</h2>
+            <a href="#none" class="see-all btn-pc">SEE ALL</a>
+          </div>
+          <div class="scroll-contents">
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/best_01.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">PHILOSYKOS EAU DE PARFUM</p>
+                <p class="price">$190</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/best_02.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">EAU DUELLE EAU DE PARFUM</p>
+                <p class="price">$190</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/best_03.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">ORPHÉON EAU DE PARFUM</p>
+                <p class="price">$190</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/best_04.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">TAM DAO DE PARFUM</p>
+                <p class="price">$190</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/best_05.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">L'MBRE DANS L'EAU EAU DE PARFUM</p>
+                <p class="price">$190</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/best_06.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">VOLUTES EAU DE PARFUM</p>
+                <p class="price">$190</p>
+              </div>
+            </a>
+          </div>
+
+          <a href="#none" class="see-all btn-m">SEE ALL</a>
+
+        </div>
+        <div class="sticky-box">
+          <img src="./img/section_03.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- sec-4 영역 -->
+    <section class="section sec-4">
+      <div class="inner">
+        <div class="sticky-box-m">
+          <img src="./img/section_04.jpg" alt="">
+        </div>
+        <div class="sticky-box">
+          <img src="./img/section_04.jpg" alt="">
+        </div>
+        <div class="scroll-box">
+          <div class="title-box">
+            <h2 class="headline">OUR MOST POPULAR CANDLES</h2>
+            <a href="#none" class="see-all btn-pc">SEE ALL</a>
+          </div>
+          <div class="scroll-contents">
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/candle_01.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">BAIES / BERRIES CANDLE</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/candle_02.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">ODOR REMOVING CANDLE WITH BASIL 190G</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/candle_03.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">FEU DE BOIS / WOOD FIRE CANDLE</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/candle_04.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">FIGUIER / FIG TREE CANDLE</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/candle_05.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">IRIS CANDLE</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+            <a href="#none" class="scr">
+              <div class="scr-img">
+                <img src="./img/candle_06.webp" alt="">
+              </div>
+              <div class="scr-txt">
+                <p class="name">CANNELLE / CINNAMON CANDLE</p>
+                <p class="price">$70</p>
+              </div>
+            </a>
+          </div>
+
+          <a href="#none" class="see-all btn-m">SEE ALL</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- sec-5 영역 -->
+    <section class="section sec-5">
+      <div class="inner">
+        <div class="sec-5-top">
+          <div class="sec-5-top-left-box">
+            <div class="title-box">
+              <h2 class="headline">LA DROGUERIE</h2>
+              <a href="#none" class="see-all btn-pc">SEE ALL</a>
+            </div>
+            <p>
+              딥디크는 매일 가치를 가져다줍니다<br>
+              더불어 일상 생활의 색과 향기까지도
+            </p>
+            <p>
+              메종의 다른 제품들과 만나는 라 드로게리<br>
+              친환경 생활용품의 새로운 컬렉션입니다<br>
+              하루하루 새로운 기쁨을 만나보세요
+            </p>
+          </div>
+          <div class="sec-5-top-right-box">
+            <img src="./img/section_05.webp" alt="">
+          </div>
+        </div>
+        <div class="sec-5-bottom">
+          <!-- 스와이퍼 -->
+          <div class="swiper mySwiper second">
+            <div class="swiper-wrapper slide-box-wrap">
+              <a href="#none" class="swiper-slide slide-box">
+                <img src="./img/la_01.png" alt="">
+              </a>
+              <a href="#none" class="swiper-slide slide-box">
+                <img src="./img/la_02.png" alt="">
+              </a>
+              <a href="#none" class="swiper-slide slide-box">
+                <img src="./img/la_03.png" alt="">
+              </a>
+              <a href="#none" class="swiper-slide slide-box">
+                <img src="./img/la_04.png" alt="">
+              </a>
+              <a href="#none" class="swiper-slide slide-box">
+                <img src="./img/la_05.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-button-next next-btn"></div>
+            <div class="swiper-button-prev prev-btn"></div>
+          </div>
+
+          <!-- 모바일 -->
+          <a href="#none" class="see-all btn-m">SEE ALL</a>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- sec-6 영역 -->
+    <section class="section sec-6">
+      <div class="insta-container">
+        <h2 class="headline">INSTAGRAM</h2>
+        <a href="#none" class="profile">
+          <div>
+            <div>
+              <img src="./img/logo.webp" alt="">
+            </div>
+          </div>
+        </a>
+        <div class="highlight">
+          <div class="con-box">
+            <div class="con-img">
+              <img src="./img/story_01.jpg" alt="">
+            </div>
+            <div class="con-txt">STORES</div>
+          </div>
+          <div class="con-box">
+            <div class="con-img">
+              <img src="./img/story_02.jpg" alt="">
+            </div>
+            <div class="con-txt">DECOR</div>
+          </div>
+          <div class="con-box">
+            <div class="con-img">
+              <img src="./img/story_03.jpg" alt="">
+            </div>
+            <div class="con-txt">BEAUTY</div>
+          </div>
+          <div class="con-box">
+            <div class="con-img">
+              <img src="./img/story_04.jpg" alt="">
+            </div>
+            <div class="con-txt">YOUR LIGH...</div>
+          </div>
+          <div class="con-box">
+            <div class="con-img">
+              <img src="./img/story_05.jpg" alt="">
+            </div>
+            <div class="con-txt">BODY</div>
+          </div>
+          <div class="con-box">
+            <div class="con-img">
+              <img src="./img/story_06.jpg" alt="">
+            </div>
+            <div class="con-txt">FLORAL</div>
+          </div>
+        </div>
+
+        <div class="feed">
+          <div class="con-box">
+            <img src="./img/insta_01.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">18.2k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">285</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_02.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">19k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">312</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_03.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">16k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">262</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_04.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">18.8k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">286</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_05.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">21.3k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">304</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_06.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">16.8k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">265</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_07.png" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">12k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">246</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_08.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">18k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">282</p>
+              </div>
+            </div>
+          </div>
+          <div class="con-box">
+            <img src="./img/insta_09.jpg" alt="">
+            <div class="con-back">
+              <div class="like-box">
+                <div class="icon like">
+                  <img src="./img/heart_bold.svg" alt="">
+                </div>
+                <p class="num">19.4k</p>
+                <div class="icon comment">
+                  <img src="./img/comment_bold.svg" alt="">
+                </div>
+                <p class="num">298</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer 영역 -->
+    <footer>
+      <div class="inner">
+        <div class="f-box f-box-1">
+          <ul>
+            <li><a href="#none">Contact Us</a></li>
+            <li><a href="#none">Store Locator</a></li>
+            <li><a href="#none">Exclusive Offers</a></li>
+            <li><a href="#none">Corporate Sales</a></li>
+            <li><a href="#none">Try before and Samples</a></li>
+            <li><a href="#none">Accessibility</a></li>
+            <li><a href="#none">Shipping Information</a></li>
+            <li><a href="#none">Help</a></li>
+          </ul>
+        </div>
+        <div class="f-box f-box-2">
+          <p>FOLLOW DIPTYQUE</p>
+          <ul class="sns-box">
+            <li>
+              <a href="#none" class="sns">
+                <img src="./img/insta.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#none" class="sns">
+                <img src="./img/facebook.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#none" class="sns">
+                <img src="./img/twitter.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="f-box f-box-3">
+          <p>NEED HELP?</p>
+          <ul class="contact-box">
+            <li><a href="#none">+1(833) 798-0845</a></li>
+            <li><a href="#none">Monday to Friday - 9.00 am to 6.00 pm EST</a></li>
+            <li><a href="#none">(Excluding holidays)</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
